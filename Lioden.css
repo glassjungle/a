@@ -6,10 +6,9 @@ Tiled Backgrounds break the code
 
 }
 @font-face {
-  font-family: Kalam;
-  src: url('https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf');
+  font-family: Kalam; /* set name */
+  src: url(https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf); /* url of the font */
 }
- 
 }
 /* BACKGROUND */
 
