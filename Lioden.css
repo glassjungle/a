@@ -557,8 +557,8 @@ a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ 
 	content: url('https://64.media.tumblr.com/9a3b5261a7855b76c90a29f5d3a3a788/dd2eb3faa3d3cb04-f4/s640x960/060ac9493694eac77ac1740c2d319c5c34112589.jpg') !important;
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.ibb.co/wr0732b/caves.png') !important;
+a[href$="unsorted.php?id=282112"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://64.media.tumblr.com/1c9fd5c7bf09c6b99f1eeecd0a9b3dca/0faacc682ef0dfe3-3a/s500x750/fe1bbe91f3bf94ddb5e4daf1359cee5f550a1303.jpg') !important;
 }
 
 .mound-grid img /* Mound(s) */ {
