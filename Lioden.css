@@ -1,9 +1,4 @@
-/*
-Free to use CSS template by Katie (#106445).
-This code may be altered, edited, or re-uploaded. 
-This template may be used to create paid codes (pre-mades and commissions).
-Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
-*/
+
 
 /* FONT (From Google Fonts) */
 
@@ -113,7 +108,7 @@ button.button, button.button:hover {
 	color: #98b4d2 !important
 }
 
-/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+/* ALERTS  */
 
 .alert,
 .alert-warning,
@@ -124,7 +119,7 @@ button.button, button.button:hover {
 	border-radius: 10px !important
 }
 
-/* BIGGEST HEADER ("___"'s DEN) */
+/* BIGGEST HEADER */
 
 h1 {
 	color: #98b4d2;
@@ -139,7 +134,7 @@ h1 {
 
 h2 {
 	color: #98b4d2;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center
       text-shadow: 1px 1px #98b4d2;
 }
@@ -196,22 +191,26 @@ h3 {
 	background: #1c2b4c !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
+	font-size: 12px !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: #192644 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
+	font-size: 12px !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: #041235 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
+	font-size: 12px !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
 	color: #98b4d2 !important;
+	font-size: 12px !important;
 }
 
 div#chatMessageContainer {
