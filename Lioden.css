@@ -1,18 +1,20 @@
 
 
-/* FONT (From Google Fonts) */
+/* Notes:
+Tiled Backgrounds break the code
+*/
 
 @import url('https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf');
 @font-face {
   font-family: Kalam;
-  src: url(https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf);
+ 
 }
 /* BACKGROUND */
 
 body {
-	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/spacebackground.gif) center center fixed;
-	 background-repeat: repeat;
-	font-family: 'Kalam', cursive;
+	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/spacebackground.gif') center center fixed;
+	 background-size:100%;
+	font-family: 'Kalam', ;
 	color: #98b4d2
 }
 
