@@ -1,28 +1,31 @@
-* FONT (From Google Fonts) */
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
 
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/* FONT (From Google Fonts) */
+
+@import url('https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf');
 
 /* BACKGROUND */
 
 body {
 	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/winterskynight.gif') center center fixed;
-	overflow:hidden;
-padding:0;
-margin:0;
-position:relative;
-    text-transform: lowercase !important;
-	font-family: "Titillium Web", sans-serif;
-	color: #011126
+	background-size: 100%;
+	font-family: 'Kalam', cursive;
+	color: #98b4d2
 }
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(153, 178, 193, 0.9);
+	background: rgba(1, 1, 1, 0.0);
 	border: none;
 	box-shadow: none;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* LEFT SIDE */
@@ -34,62 +37,63 @@ position:relative;
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background-image: linear-gradient(to bottom left, #023059, #011C26, #012840) !important;
-	border: none;
-	border-top: none;
-	color: #75d5b2;
-	border-radius: 0px;
+	background: rgba(4, 18, 53, 1);
+	border: 1px solid #000418;
+	border-top: 1px solid #000418;
+	color:  #98b4d2;
+	border-radius: 10px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background-image: linear-gradient(to top left, #023059, #011C26, #012840) !important;
-	border-bottom: none;
-	color: #011126;
-	border-radius: 0px
+	background: rgba(4, 18, 53, 1);
+      border: 1px solid #000418;
+	border-bottom: 1px solid #000418;
+      border-top: 1px solid #000418;
+	color:  #98b4d2;
+      text-shadow: 1px 1px #000418;
+	border-radius: 10px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #75d5b2 !important
+	color:  #98b4d2; !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(4, 217, 139, 0.6) !important;
+	background: #00092d !important;
 	border-bottom: none;
-	color: #011C26 !important;
-	border-radius: 0px
-    filter: brightness(100%) opacity(50%);
-    transition: 1.0s !important;
-    height: 50px;
-    width: auto !important
+	color: #98b4d2 !important;
+	border-radius: 10px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(85, 114, 136, 0.8) !important;
-        border: none;
-	border-radius: 0px
+	background: rgba(4, 18, 53, 1) !important;
+      border: 1px solid #000418;
+	border-bottom: 1px solid #000418;
+      border-top: 1px solid #000418;
+	border-radius: 10px
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #011126
+	color: #98b4d2
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie [#106445] | Edited by Sprout [#185560]";
-        color: #011126;
+        content: "Template by Katie (#106445) / Additional coding done by Kyrie (#169252)";
+        color: #98b4d2;
         position: absolute;
-        right: 16%; /* (This may need adjusting) */
+        right: 13%; /* (This may need adjusting) */
         z-index: 100
     }
 
@@ -114,20 +118,22 @@ position:relative;
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(85, 114, 136, 0.1) !important;
-        border: none !important;
-	border-radius: 0px;
-	color: #011126 !important;    
+	background: rgba(4, 18, 53, 1) !important;
+      border: 1px solid #000418 !important;
+	border-bottom: 1px solid #000418 !important;
+      border-top: 1px solid #000418 !important;
+	border-radius: 10px;
+	color: #98b4d2 !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(85, 114, 136, 0.8);
-        border: none !important;
-	border-radius: 70px;
-        text-shadow: none !important;
-	color: #011126 !important
+	background: rgba(4, 18, 53, 1);
+      border: 1px solid #000418 !important;
+	border-radius: 10px;
+      text-shadow: none !important;
+	color: #98b4d2 !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -135,74 +141,112 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(55, 166, 134, 0.9) !important;
-	border: none;
-	color: #011126;
-	border-radius: 0px !important
+	background: rgba(4, 18, 53, 1) !important;
+	border: 1px solid #000418;
+	color: #98b4d2;
+	border-radius: 10px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #011126;
-	font-size: 70px;
+	color: #98b4d2;
+	font-size: 90px;
 	text-align: center;
-        font-family: "Titillium Web", sans-serif;
+        font-family: 'Kalam', cursive;
+        text-shadow: 2px 2px #98b4d2;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #011126;
+	color: #98b4d2;
 	font-size: 24px;
 	text-align: center
+      text-shadow: 1px 1px #98b4d2;
 }
 
 
 /* SMALL HEADER */
 
 h3 {
-	color: #011126 !important;
+	color: #98b4d2 !important;
+      text-shadow: 1px 1px #98b4d2;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #011126 !important;
+	color: #98b4d2 !important;
+       text-shadow: 1px 1px #98b4d2;
         font-size: 26px !important;
-        font-family: "Titillium Web", sans-serif;
+        font-family: 'Kalam', cursive;
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(30, 59, 77, 0.9) !important;
+	background: rgba(4, 18, 53, 1) !important;
 	box-shadow: none !important;
-	border: none !important;
-	color: #011126 !important;
-	border-radius: 0px
+	border: 1px solid #000418  !important;
+	color: #98b4d2 !important;
+	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(182, 219, 242, 0.9);
-	color: #011126 !important;
+	background: #1c2b4b;
+	color: #1c2b4b* !important;
 	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background-image: linear-gradient(to right, #0B1E26, #5BA683) !important;
-	color: #011126 !important;
+	background: rgba(2,12,37,1);
+	color: rgba(2,12,37,1) !important;
 	border-radius: 10px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000D0C !important
+	color: #98b4d2 !important
 }
 
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: #1c2b4c !important;
+        color: #98b4d2 !important;
+	border: 1px solid #000418  !important;
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: #192644 !important;
+        color: #98b4d2 !important;
+	border: 1px solid #000418  !important;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #041235 !important;
+        color: #98b4d2 !important;
+	border: 1px solid #000418  !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #98b4d2 !important;
+}
+
+div#chatMessageContainer {
+	border: 1px solid #000418  !important;
+
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: #041235 !important;
+        color: #98b4d2 !important;
+	border: 1px solid #000418  !important;
+}
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
 
@@ -210,10 +254,10 @@ h3 {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(201, 201, 201, 0.9);
-	border: none !important;
+	background: rgba(4, 18, 53, 0.5);
+	border: 1px solid #000418  !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 
@@ -222,9 +266,12 @@ h3 {
 .top,
 .bottom,
 th {
-	background: rgba(31, 46, 72, 0.9) !important;
-	color: #011126 !important;
-	border-radius: 0px
+	background: rgba(4, 18, 53, 1) !important;
+	color: #98b4d2 !important;
+	border-radius: 10px
+      border-bottom: 1px solid #000418 !important;
+      border-top: 1px solid #000418 !important;
+      border: 1px solid #000418 !important;
 }
 
 td.bottom a {
@@ -234,21 +281,21 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(36, 111, 90, 0.9) !important;
-        color: #011126;
-	border-radius: 0px
+	background: rgba(28,43,75,1) !important;
+        color: #98b4d2;
+	border-radius: 10px
 }
 
 
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: rgba(223, 239, 236, 0.8);
-	border-radius: 0px !important
+	background: none;
+	border-radius: 10px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* IGNORE */
@@ -260,34 +307,37 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(30, 59, 77, 0.9);
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(4, 18, 53, 1);
+	border-bottom: 1px solid #000418 !important;
+      border-top: 1px solid #000418 !important;
+      border: 1px solid #000418 !important;
+	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(36, 111, 90, 0.9) !important;
-	color: #011126 !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(4, 18, 53, 1) !important;
+	color: #98b4d2 !important;
+	border: 1px solid #000418 !important;
+	border-radius: 10px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(36, 111, 90, 0.9);
-	border: none;
-	border-radius: 0px !important
+	background: rgba(4, 18, 53, 1);
+	border: 1px solid #000418 !important;
+	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(30, 59, 77, 0.8);
-        border-radius: 0px
+	background: rgba(28,43,75,1);
+      color: #98b4d2;
+        border-radius: 10px
 }
 
 /* Color behind the content of the elements listed above */
@@ -295,10 +345,10 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(201, 201, 201, 0.9) !important;
-	border: none !important;
-	border-radius: 0px !important;
-	color: #011126 !important;
+	background: rgb(28, 43, 76) !important;
+	border: 1px solid #000418 !important;
+	border-radius: 10px !important;
+	color: #98b4d2 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -306,31 +356,31 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(30, 59, 77, 0.9) !important;
-	color: #011126  !important;
-	border-radius: 0px !important;
+	background: #041235 !important;
+	color: #98b4d2  !important;
+	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(444, 444, 444, 0.9) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: #1c2b4c !important;
+	border: 1px solid #000418 !important;
+	border-radius: 10px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #B6DBF2 !important
+	background: #32405d !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #012340 !important
+	background: #020e2b !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #0d624e !important;
+        color: #98b4d2 !important;
         text-shadow: none !important
 }
 
@@ -338,20 +388,20 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #000D0C !important
+	color: #7493bb !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #0d624e !important
+	color: #7493bb !important
 }
 
 
 /* BOX CONTAINER */
 
 .boxcontainer {
-	background: none;
+	background: #041235;
 	height: auto;
 	padding: 0px;
 	justify-content: center;
@@ -362,11 +412,11 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: rgba(201, 201, 201, 0.9);
-	color: #011C26;
+	background: rgba(4, 18, 53, 1);
+	color: #98b4d2;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 1px solid #000418  !important;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 28.4%;
@@ -375,11 +425,11 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: rgba(201, 201, 201, 0.9);
-	color: #011C26;
+	background: rgba(4, 18, 53, 1);
+	color: #98b4d2;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 1px solid #000418  !important;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 43.8%;
@@ -388,27 +438,13 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(201, 201, 201, 0.9);
-	color: #011C26;
+	background: rgba(4, 18, 53, 1);
+	color: #98b4d2;
 	padding: 10px;
-	border: none;
+	border: 1px solid #000418  !important;
 	border-radius: 0px;
 	margin: 10px;
 	height: 150px;
-	width: 90%;
-	overflow: auto
-}
-
-.decorbox {
-	float: left;
-	background: none;
-	color: none;
-	padding: 10px;
-	border: none;
-	border-radius: 0px;
-	margin: 10px;
-    margin-bottom: -35px;
-	height: 430px;
 	width: 90%;
 	overflow: auto
 }
@@ -417,11 +453,11 @@ a:hover {
 
 .smallhoverbox {
 	float: left;
-	background: rgba(201, 201, 201, 0.9);
-	color: #011C26;
+	background: rgba(4, 18, 53, 1);
+	color: #98b4d2;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 1px solid #000418  !important;
+	border-radius: 10px;
 	margin: 10px;
 	height: 50px;
 	width: 28.4%;
@@ -436,11 +472,11 @@ a:hover {
 
 .mediumhoverbox {
 	float: left;
-	background: rgba(201, 201, 201, 0.9);
-	color: #011C26;
+	background: rgba(4, 18, 53, 1);
+	color: #98b4d2;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 1px solid #000418  !important;
+	border-radius: 10px;
 	margin: 10px;
 	height: 50px;
 	width: 43.8%;
@@ -455,11 +491,11 @@ a:hover {
 
 .largehoverbox {
 	float: left;
-	background: rgba(201, 201, 201, 0.9);
-	color: #011C26;
+	background: rgba(4, 18, 53, 1);
+	color: #98b4d2;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 1px solid #000418  !important;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -484,50 +520,74 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #ffffff
+	background: #041235
 }
 
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #000000;
-	border-radius: 0px
+	background: #1c2b4c;
+	border-radius: 10px
 }
 
 
 /* LION AND USER AVATAR OPACITY */
 
 div#lion_image {
-	opacity: 1
+	opacity: 0.8
 }
 
 table#player img {
-	opacity: 1
+	opacity: 0.8
 }
 
 
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 0% !important;
+	border-radius: 50% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
 }
 
 table#player img {
-	border-radius: 0% !important;
+	border-radius: 50% !important;
 	overflow: hidden
-    margin-top: 15px; /* May need adjusting */
-	margin-left: -20px /* May need adjusting */
 }
 
 
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://static.wikia.nocookie.net/warriors/images/b/b2/Logo-shadowclan-textless.png/revision/latest?cb=20210624221224')
+	content: url('https://i.ibb.co/fkPkK7G/bluegalaxylogo.png')
+}
+
+/* CAVE / MOUND IMAGES */
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.ibb.co/wr0732b/caves.png') !important
+}
+
+a[href$="CAVE ID"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/wr0732b/caves.png') !important
+}
+
+a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.ibb.co/wr0732b/caves.png') !important
+}
+
+a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.ibb.co/wr0732b/caves.png') !important
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
@@ -547,3 +607,13 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 			width: 790px;
 		}
 	}
+
+a:hover {
+	color: #7493bb !important;
+        text-shadow: 0px 0px 8px rgba(255,255,255,.8);
+}
+
+
+img.floatleft {
+content:url('https://i.ibb.co/XyvbB4m/gift-2.png') !important;
+border-radius: 0% !important; }
