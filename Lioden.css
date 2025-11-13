@@ -5,10 +5,7 @@ Tiled Backgrounds break the code
 */
 
 }
-@font-face {
-  font-family: PKMN; /* set name */
-  src: url(https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf); /* url of the font */
-}
+@import url('https://file.garden/ZlKCRJrkUEDiwwUh/so5g54.ttf);
 }
 /* BACKGROUND */
 
