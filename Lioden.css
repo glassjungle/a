@@ -191,26 +191,26 @@ h3 {
 	background: #1c2b4c !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
-	font-size: 12px !important;
+	font-size: 10px !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: #192644 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
-	font-size: 12px !important;
+	font-size: 10px !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: #041235 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
-	font-size: 12px !important;
+	font-size: 10px !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
 	color: #98b4d2 !important;
-	font-size: 12px !important;
+	font-size: 10px !important;
 }
 
 div#chatMessageContainer {
