@@ -378,7 +378,7 @@ a:hover {
 
 /* BOX CONTAINER */
 
-.boxcontainer {
+
 	.boxcontainer {
     background: #041235;
     height: auto;
@@ -386,7 +386,7 @@ a:hover {
     justify-content: center;
     display: flex;
     
-}
+
 }
 
 /* BOXES */
