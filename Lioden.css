@@ -127,7 +127,7 @@ h1 {
 	color: #98b4d2;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'PKMN',;
+        font-family: 'PKMN';
         text-shadow: 2px 2px #98b4d2;
 }
 
@@ -156,7 +156,7 @@ h3 {
 	color: #98b4d2 !important;
        text-shadow: 1px 1px #98b4d2;
         font-size: 26px !important;
-        font-family: 'PKMN', ;
+        font-family: 'PKMN';
 }
 
 /* RIGHT SIDE PANELS */
