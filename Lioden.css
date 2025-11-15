@@ -556,7 +556,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 div.cave-grid>img /* Pregnant Lionesses */ {
 	content: url('https://64.media.tumblr.com/e91d6bf2341ba52d0145522891ffa8a2/664039ba8b6e41b9-4b/s400x600/6e7eb01ce16f0c6119470ee9531a44c1a9251d96.jpg') !important;
 }
-
+/* Warrior's Den */
 a[href$="222705"]>div.cave-grid>img {
 	content: url('https://64.media.tumblr.com/f47c0999172a1837b9015abce1b3314f/69c35ffd815b0b7c-3a/s2048x3072/87ff352646819475dfd7732959a045b1327beac1.jpg') !important;
 }
@@ -568,7 +568,7 @@ a[href$="lionoverview.php?id=282112"]>div.cave-grid>img /* Pride Overview */ {
 a[href$="unsorted.php?id=282112"]>div.cave-grid>img /* Unsorted */ {
 	content: url('https://64.media.tumblr.com/1c9fd5c7bf09c6b99f1eeecd0a9b3dca/0faacc682ef0dfe3-3a/s500x750/fe1bbe91f3bf94ddb5e4daf1359cee5f550a1303.jpg') !important;
 }
-
+/*Medicine Cat's Den*/
 a[href$="508715"]>div.cave-grid>img {
 	content: url('https://64.media.tumblr.com/6ebd741ac4e49fdfa8855935621aa541/af61fe8c59b2be8f-34/s640x960/c9aa26a8921b4ead27b37c88cd63e596feb197b5.jpg') !important;
 }
