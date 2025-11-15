@@ -59,7 +59,7 @@ body {
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color:  #98b4d2; !important
+	color:  #98b4d2 !important;
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -379,11 +379,14 @@ a:hover {
 /* BOX CONTAINER */
 
 .boxcontainer {
-	background: #041235;
-	height: auto;
-	padding: 0px;
-	justify-content: center;
-	display: flex;
+	.boxcontainer {
+    background: #041235;
+    height: auto;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    
+}
 }
 
 /* BOXES */
