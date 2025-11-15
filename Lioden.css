@@ -561,16 +561,14 @@ a[href$="222705"]>div.cave-grid>img {
 	content: url('https://64.media.tumblr.com/f47c0999172a1837b9015abce1b3314f/69c35ffd815b0b7c-3a/s2048x3072/87ff352646819475dfd7732959a045b1327beac1.jpg') !important;
 }
 
-a[href$="lionoverview.php?id="222705"]>div.cave-grid>img /* Pride Overview */ {
+a[href$="lionoverview.php?id=222705"]>div.cave-grid>img /* Pride Overview */ {
 	content: url('https://64.media.tumblr.com/dbb0b47061f13b15fe617f3a24b4c34e/543cfe99143c70e7-da/s1280x1920/dc0cb1a2eb124b6d655f80ce323005eefc798ff4.pnj') !important;
 }
 
 a[href$="unsorted.php?id=282112"]>div.cave-grid>img /* Unsorted */ {
 	content: url('https://64.media.tumblr.com/1c9fd5c7bf09c6b99f1eeecd0a9b3dca/0faacc682ef0dfe3-3a/s500x750/fe1bbe91f3bf94ddb5e4daf1359cee5f550a1303.jpg') !important;
 }
-a[href$="emptycaveslot"]>div.cave-grid>img {
-	content: url('https://64.media.tumblr.com/15e25320e8247753ff2e7035e65a6588/253d226efbe2e889-3d/s400x600/3ad9876d5efbce9a349ca39dd329b369b6fdf62b.pnj') !important;
-}
+
 
 .mound-grid img /* Mound(s) */ {
 	background: url("");
