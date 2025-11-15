@@ -554,15 +554,15 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* CAVE / MOUND IMAGES */
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://64.media.tumblr.com/27cd502a6bc912eb3e9c07b27a72be71/334d24e3b6350cfe-a0/s1280x1920/5ea6dea1639a3294b7728644d2764ec357a321e9.jpg') !important;
+	content: url('https://64.media.tumblr.com/e91d6bf2341ba52d0145522891ffa8a2/664039ba8b6e41b9-4b/s400x600/6e7eb01ce16f0c6119470ee9531a44c1a9251d96.jpg') !important;
 }
 
 a[href$="222705"]>div.cave-grid>img {
 	content: url('https://64.media.tumblr.com/f47c0999172a1837b9015abce1b3314f/69c35ffd815b0b7c-3a/s2048x3072/87ff352646819475dfd7732959a045b1327beac1.jpg') !important;
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://64.media.tumblr.com/9a3b5261a7855b76c90a29f5d3a3a788/dd2eb3faa3d3cb04-f4/s640x960/060ac9493694eac77ac1740c2d319c5c34112589.jpg') !important;
+a[href$="lionoverview.php?id="222705"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://64.media.tumblr.com/dbb0b47061f13b15fe617f3a24b4c34e/543cfe99143c70e7-da/s1280x1920/dc0cb1a2eb124b6d655f80ce323005eefc798ff4.pnj') !important;
 }
 
 a[href$="unsorted.php?id=282112"]>div.cave-grid>img /* Unsorted */ {
