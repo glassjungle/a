@@ -1,5 +1,3 @@
-
-
 /* Notes:
 Tiled Backgrounds break the code
 */
@@ -173,7 +171,7 @@ h3 {
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: #1c2b4b;
-	color: #1c2b4b* !important;
+	color: #1c2b4b !important;
 	border-radius: 10px !important;
 }
 
