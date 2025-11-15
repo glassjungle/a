@@ -194,6 +194,7 @@ h3 {
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
+	font-family: 'PKMN';
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
@@ -201,6 +202,7 @@ h3 {
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
+	font-family: 'PKMN';
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
@@ -208,15 +210,18 @@ h3 {
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
+	font-family: 'PKMN';
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
 	color: #98b4d2 !important;
 	font-size: 12px !important;
+	font-family: 'PKMN';
 }
 
 div#chatMessageContainer {
 	border: 1px solid #000418  !important;
+	font-family: 'PKMN';
 
 }
 
@@ -224,6 +229,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: #041235 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
+	font-family: 'PKMN';
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
