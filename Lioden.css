@@ -569,6 +569,9 @@ a[href$="unsorted.php?id=282112"]>div.cave-grid>img /* Unsorted */ {
 	content: url('https://64.media.tumblr.com/1c9fd5c7bf09c6b99f1eeecd0a9b3dca/0faacc682ef0dfe3-3a/s500x750/fe1bbe91f3bf94ddb5e4daf1359cee5f550a1303.jpg') !important;
 }
 
+a[href$="508715"]>div.cave-grid>img {
+	content: url('https://64.media.tumblr.com/6ebd741ac4e49fdfa8855935621aa541/af61fe8c59b2be8f-34/s640x960/c9aa26a8921b4ead27b37c88cd63e596feb197b5.jpg') !important;
+}
 
 .mound-grid img /* Mound(s) */ {
 	background: url("https://file.garden/ZlKCRJrkUEDiwwUh/Lioden%20Stuff/ce180bb47a02b2220b93747363d8dd84.jpg");
