@@ -52,7 +52,7 @@ body {
 	border-bottom: 1px solid #000418;
       border-top: 1px solid #000418;
 	color:  #98b4d2;
-      text-shadow: 1px 1px #000418;
+      text-shadow: 1px 1px #0e7194;
 	border-radius: 10px;
 }
 
@@ -128,7 +128,7 @@ h1 {
 	font-size: 90px;
 	text-align: center;
         font-family: 'PKMN';
-        text-shadow: 2px 2px #98b4d2;
+        text-shadow: 2px 2px #0e7194;
 }
 
 
@@ -138,7 +138,7 @@ h2 {
 	color: #98b4d2;
 	font-size: 20px;
 	text-align: center;
-      text-shadow: 1px 1px #98b4d2;
+      text-shadow: 1px 1px #0e7194;
 }
 
 
@@ -146,7 +146,7 @@ h2 {
 
 h3 {
 	color: #98b4d2 !important;
-      text-shadow: 1px 1px #98b4d2;
+      text-shadow: 1px 1px #0e7194;
 	font-size: 14px !important;
 }
 
@@ -154,7 +154,7 @@ h3 {
 
 .sidebar h3 {
 	color: #98b4d2 !important;
-       text-shadow: 1px 1px #98b4d2;
+       text-shadow: 1px 1px #0e7194;
         font-size: 26px !important;
         font-family: 'PKMN';
 }
@@ -600,7 +600,7 @@ a[href$="508715"]>div.cave-grid>img {
 
 a:hover {
 	color: #7493bb !important;
-        text-shadow: 0px 0px 8px rgba(255,255,255,.8);
+        text-shadow: 0px 0px 8px rgb(14,113,148,.8);
 }
 
 
