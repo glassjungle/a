@@ -15,14 +15,14 @@ body {
 	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/Lioden%20Stuff/Screenshot%202025-11-13%20132402.png') center center fixed;
 	 background-size:100%;
 	font-family: 'PKMN';
-	
+	color: #98b4d2;
 }
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: #041c36;
+	background: rgba(1, 1, 1, 0.0);
 	border: none;
 	box-shadow: none;
 	border-radius: 10px;
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: #041c36;
+	background: rgba(4, 18, 53, 1);
 	border: 1px solid #000418;
 	border-top: 1px solid #000418;
 	color:  #98b4d2;
@@ -171,7 +171,7 @@ h3 {
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: #1c2b4b;
-	color: #042036!important;
+	color: #1c2b4b !important;
 	border-radius: 10px !important;
 }
 
@@ -190,7 +190,7 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: #263a65 !important;
+	background: #1c2b4c !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
@@ -206,7 +206,7 @@ h3 {
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: #2b5d80 !important;
+	background: #041235 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
@@ -226,7 +226,7 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: #041c36 !important;
+	background: #041235 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-family: 'PKMN';
@@ -238,7 +238,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: #041c36;
+	background: rgba(4, 18, 53, 0.5);
 	border: 1px solid #000418  !important;
 	border-collapse: separate;
 }
@@ -320,7 +320,7 @@ div.left {
 .table .left {
 	background: rgba(28,43,75,1);
       color: #98b4d2;
-        border-radius: 1px;
+        border-radius: 10px;
 }
 
 /* Color behind the content of the elements listed above */
@@ -339,7 +339,7 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: #041c36 !important;
+	background: #041235 !important;
 	color: #98b4d2  !important;
 	border-radius: 10px !important;
 }
@@ -385,7 +385,7 @@ a:hover {
 
 
 	.boxcontainer {
-    background: #041c36;
+    background: #041235;
     height: auto;
     padding: 0px;
     justify-content: center;
@@ -506,7 +506,7 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #041c36;
+	background: #041235;
 }
 
 
@@ -532,14 +532,14 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 0% !important;
+	border-radius: 50% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px; /* May need adjusting */
 }
 
 table#player img {
-	border-radius: 0% !important;
+	border-radius: 50% !important;
 	overflow: hidden;
 }
 
