@@ -539,7 +539,7 @@ div#lion_image {
 }
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 0% !important;
 	overflow: hidden;
 }
 
