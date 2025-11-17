@@ -241,7 +241,6 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(4, 18, 53, 0.5);
 	border: 1px solid #000418  !important;
 	border-collapse: separate;
-	border-radius: 10px;
 }
 
 
