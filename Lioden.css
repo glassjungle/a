@@ -532,14 +532,14 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 50% !important;
+	border-radius: 0% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px; /* May need adjusting */
 }
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 0% !important;
 	overflow: hidden;
 }
 
