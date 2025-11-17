@@ -190,7 +190,7 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: #1c2b4c !important;
+	background: #263a65 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
@@ -206,7 +206,7 @@ h3 {
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: #041235 !important;
+	background: #2b5d80 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-size: 12px !important;
@@ -320,7 +320,7 @@ div.left {
 .table .left {
 	background: rgba(28,43,75,1);
       color: #98b4d2;
-        border-radius: 10px;
+        border-radius: 1px;
 }
 
 /* Color behind the content of the elements listed above */
@@ -532,7 +532,7 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 50% !important;
+	border-radius: 0% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px; /* May need adjusting */
