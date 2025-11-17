@@ -226,7 +226,7 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: #041235 !important;
+	background: #041c36 !important;
         color: #98b4d2 !important;
 	border: 1px solid #000418  !important;
 	font-family: 'PKMN';
@@ -339,7 +339,7 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: #041235 !important;
+	background: #041c36 !important;
 	color: #98b4d2  !important;
 	border-radius: 10px !important;
 }
@@ -385,7 +385,7 @@ a:hover {
 
 
 	.boxcontainer {
-    background: #041235;
+    background: #041c36;
     height: auto;
     padding: 0px;
     justify-content: center;
@@ -506,7 +506,7 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #041235;
+	background: #041c36;
 }
 
 
