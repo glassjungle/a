@@ -15,14 +15,14 @@ body {
 	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/Lioden%20Stuff/Screenshot%202025-11-13%20132402.png') center center fixed;
 	 background-size:100%;
 	font-family: 'PKMN';
-	color: #98b4d2;
+	color: #041c36;
 }
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 1, 1, 0.0);
+	background: #041c36;
 	border: none;
 	box-shadow: none;
 	border-radius: 10px;
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(4, 18, 53, 1);
+	background: #041c36;
 	border: 1px solid #000418;
 	border-top: 1px solid #000418;
 	color:  #98b4d2;
@@ -238,7 +238,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(4, 18, 53, 0.5);
+	background: #041c36;
 	border: 1px solid #000418  !important;
 	border-collapse: separate;
 }
